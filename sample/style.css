@@ -1,0 +1,28 @@
+<style>
+h3{
+	background-color:yellow;
+	color:blue;
+}
+#yasmeen{
+	color:blue;
+}
+.syed{
+	color:yellow;
+}
+h1{
+	font-size:20
+}
+p,h1,h3{
+	color:acqua;
+}
+.parent{
+background-color: bisque;
+margin: 5%;
+display: flex;
+justify-content:space-around; 
+}
+.child{
+background-color: aqua;
+margin:4%;
+padding: 2%;
+}

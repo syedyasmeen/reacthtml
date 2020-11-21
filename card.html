@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width,intial-scale=1.0">
+	<link rel="icon" href="g.jpeg">
+	<title>Profile cards</title>
+	<style type="text/css">
+		.profile{
+			display:flex;
+			width:100%;
+			border:2px solid blue;
+		}
+		.profile>div{
+            padding:1%;
+            margin:1%;
+            width:30%;
+            border:2px solid maroon;
+            text-align:center;
+            box-shadow:10px 10px 10px 10px;
+		}
+		img{
+			border-radius: 20%;
+			border: 2px solid green;
+		}
+		h1{
+			color:blue;
+			font-style:italic; 
+		}
+		h3{
+			color:yellow;
+			font-size:5;
+			font-style:inherit;
+		}
+		button{
+			box-shadow:4px 4px 4px 4px;
+			color:green;
+			width:30%;
+		}
+		a{
+			text-decoration:none;
+		}
+		@media only screen and (min-width:320px) and (max-width:480px){
+			.profile{
+				display:flex;
+				flex-direction:column;
+				max-width:100%;
+			}
+			.profile>div{
+				width:90%;
+
+			}
+		}
+		/*tabview */
+		
+		@media only screen and (min-width:320px) and (max-width:480px){
+			.profile{
+				display:flex;
+				flex-direction:column;
+				max-width:100%;
+			}
+			.profile>div,.header>div{
+				width:90%;
+				text-align:center;
+
+			}
+		}
+		.copy{
+			background-color:pink;
+			width:100%;
+		}
+		.header{
+			display:flex;
+			width:100%;
+			margin:1%;
+			padding:1%;
+		}
+		.header>div{
+			width:50%;
+			padding:1%;
+			margin:1%;
+					}
+	</style>
+</head>
+<body>
+	<div class="header">
+		<div class="left">
+			<img src="s.jpeg" width="200px" height="200px" alt="profies">
+		</div>
+		<div class="right">
+		<h1 style="color:red">Syed Yasmeen</h1>	
+		<h3 style="color:red">Student</h3>
+		<h4 style="color:red">SRK institute of technology</h4>
+		</div>
+			</div>
+				<h1 style="color:blue;font-style:italic" align="center"><u>My design</u></h1>
+	<div class="profile">
+		<div class="card">
+		<img src="g.jpeg" width="200px" height="200px" alt="profilecard">
+		<h1>syed yasmeen</h1>
+		<hr>
+		<h4>vijayawada</h4>
+		<button><a href="#">view</a></button>
+		</div>
+				<div class="card">
+				<img src="g.jpeg" width="200px" height="200px" alt="profilecard">
+				<h1>syed yasmeen</h1>
+				<hr>
+						<h4>chennai</h4>
+						<button><a href="#">view</a></button>
+				</div>
+   	<div class="card">
+   	<img src="g.jpeg" width="200px" height="200px" alt="profilecard">
+   	<h1>syed yasmeen</h1>
+   	<hr>
+   			<h4>hyderabad</h4>
+   			<button><a href="#">view</a></button>
+   	</div>
+</div>
+<a href="">Gmail</a>
+
+<!-- Footer -->
+<div class="copy">
+ <h1 align="center"> All Copy Rights Reviced By APSSDC REACTJS Team@2020</h1>
+</div>
+	</body>
+	</html>
